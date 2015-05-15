@@ -25,6 +25,8 @@ GEM
     simplecov-json (0.2)
       json
       simplecov
+    simplecov-rcov (0.2.3)
+      simplecov (>= 0.4.1)
 
 PLATFORMS
   ruby
@@ -33,3 +35,4 @@ DEPENDENCIES
   rspec
   simplecov
   simplecov-json
+  simplecov-rcov
