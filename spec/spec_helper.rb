@@ -1,6 +1,7 @@
-require_relative '../car'
+require 'simplecov'
+SimpleCov.start
 
-require 'yaml'
+require_relative '../car'
 
 RSpec.configure do |config|
   config.mock_with :rspec do |c|
