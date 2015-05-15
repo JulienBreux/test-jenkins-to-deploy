@@ -6,4 +6,5 @@ group :test do
     gem 'rspec', :require => false
     gem 'simplecov', :require => false
     gem 'simplecov-json', :require => false
+    gem 'simplecov-rcov', :require => false
 end
