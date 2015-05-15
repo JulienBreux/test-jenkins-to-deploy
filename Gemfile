@@ -2,5 +2,8 @@ source "https://rubygems.org"
 
 ruby "2.2.2"
 
-gem 'rspec', :require => false, :group => :test
-gem 'simplecov', :require => false, :group => :test
+group :test do
+    gem 'rspec', :require => false
+    gem 'simplecov', :require => false
+    gem 'simplecov-json', :require => false
+end
