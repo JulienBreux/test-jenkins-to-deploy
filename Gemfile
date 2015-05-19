@@ -8,3 +8,7 @@ group :test do
     gem 'simplecov-json', :require => false
     gem 'simplecov-rcov', :require => false
 end
+
+gem 'capistrano'
+gem 'capistrano-rbenv'
+gem 'capistrano-bundler'
